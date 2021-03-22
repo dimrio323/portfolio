@@ -1,0 +1,85 @@
+.ContactMe {
+    margin-left: 100px;
+}
+
+.ContactMe .titleMe {
+    color: #fa4c52;
+    font-size: 60px;
+}
+
+.ContactMe .textMe {
+    width: 500px;
+    color: #fff;
+    font-size: 18px;
+    text-indent: 1.5em;
+}
+
+.ContactMe form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.ContactMe form input, .ContactMe form textarea {
+    border: 0;
+    border-radius: 10px;
+}
+
+.ContactMe form input {
+    margin: 10px 10px 10px 0;
+    border: 0;
+    background: #2b2b2b;
+    height: 50px;
+    font-size: 16px;
+    color: #fa4c52;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.ContactMe form input::placeholder {
+    color: #fa4c52;
+}
+
+.ContactMe form textarea {
+    margin-top: 10px;
+    width: 100%;
+    border: 0;
+    background: #2b2b2b;
+    height: 50px;
+    font-size: 16px;
+    color: #fa4c52;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 150px;
+    resize: none;
+}
+
+.ContactMe form textarea::placeholder {
+    color: #fa4c52;
+}
+
+.ContactMe form .info {
+    display: flex;
+}
+
+.ContactMe form .info input:last-child {
+    margin-right: 0;
+}
+
+.ContactMe form button {
+    margin-left: auto;
+    margin-top: 7px;
+    background: transparent;
+    border: 2px solid #fa4c52;
+    border-radius: 10px;
+    color: #fa4c52;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.ContactMe form button:hover {
+    background: #fa4c52;
+    color: #1d1d1d;
+}
