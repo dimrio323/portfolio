@@ -1,3 +1,37 @@
 .Skills {
-    
+    color: #fff;
+}
+
+.Skills canvas {
+    width: 500px;
+    height: 250px;
+    display: block;
+}
+
+.Skills .all {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.Skills .skil .HTML, .Skills .skil .CSS , .Skills .skil .js , .Skills .skil .reactjs , .Skills .skil .php , .Skills .skil .scss , .Skills .skil .sql, .Skills .skil .python  {
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid #697278;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto 300px;
+    position: relative;
+}
+
+.Skills .svg {
+    position: relative;
+}
+
+.Skills .svg img {
+    position: absolute;
+    left: 41%;
+    top: 50%;
 }

@@ -8,7 +8,7 @@ class Menu extends Component {
         return (
             <div className='Menu'>
                 <div className='logo'>
-                    <Link to='/'><img src={python} className='logoImg' /></Link>
+                    <Link to='/'><img alt='' src={python} className='logoImg' /></Link>
                     <h2>Piton</h2>
                     <p>Web Developer</p>
                 </div>

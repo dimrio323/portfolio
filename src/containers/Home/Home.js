@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import './Home.css'
 
 class Home extends Component {
+
+    componentDidMount() {
+        document.title = 'Главная';
+    }
+
     render() {
         return (
             <div>

@@ -1,6 +1,8 @@
 .Menu {
     width: 150px;
     background: #38444c;
+    position: fixed;
+    height: 100%;
     border-right: 2px solid #697278;
 }
 
