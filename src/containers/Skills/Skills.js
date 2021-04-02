@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 import axios from '../../axios/axios';
 import './Skills.css'
 import html5 from './html5.svg'
-import css3 from './css3.svg'
+import css3 from './css.svg'
 import js from './js.svg'
 import Reactjs from './Reactjs.svg'
 import php from './php.svg'
@@ -363,7 +363,7 @@ class Skills extends Component {
                 </div>
                 <div className='skil'>
                     <div className='HTML'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>HTML</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>
@@ -373,7 +373,7 @@ class Skills extends Component {
                         </div>
                     </div>
                     <div className='CSS'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>CSS</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>
@@ -383,7 +383,7 @@ class Skills extends Component {
                         </div>
                     </div>
                     <div className='scss'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>SCSS / SASS</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>
@@ -393,7 +393,7 @@ class Skills extends Component {
                         </div>
                     </div>
                     <div className='js'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>JS</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>
@@ -403,7 +403,7 @@ class Skills extends Component {
                         </div>
                     </div>
                     <div className='reactjs'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>ReactJS</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>
@@ -413,7 +413,7 @@ class Skills extends Component {
                         </div>
                     </div>
                     <div className='php'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>PHP</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>
@@ -423,7 +423,7 @@ class Skills extends Component {
                         </div>
                     </div>
                     <div className='python'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>Python</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>
@@ -433,7 +433,7 @@ class Skills extends Component {
                         </div>
                     </div>
                     <div className='sql'>
-                        <div className='text'>
+                        <div className='text' style={{width: '95%'}}>
                             <h1>SQL</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi, itaque accusantium ducimus perferendis delectus facilis pariatur blanditiis tempore architecto, rem, eveniet consequatur velit aliquid quod possimus recusandae dolorem eos</p>
                         </div>

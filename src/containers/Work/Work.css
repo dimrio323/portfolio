@@ -1,3 +1,59 @@
 .Work {
     
 }
+
+.Work .title {
+    color: #fff;
+    width: max-content;
+    margin: 20px auto;
+}
+
+.Work .content {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+}
+
+.Work .content .item {
+    width: 300px;
+    height: 400px;
+    margin: 10px auto;
+    border: 2px solid #697278;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Work .content .item .name {
+    margin: 5px auto;
+    color: #fff;
+    font-size: 25px;
+}
+
+.Work .content .item .img {
+    height: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.Work .content .item .img p {
+    margin: auto;
+    width: max-content;
+}
+
+.Work .content .item button {
+    border: 2px solid #697278;
+    border-radius: 10px;
+    color: #fff;
+    background: #30cf30;
+    padding: 7px 20px;
+    font-size: 18px;
+    transition: all 0.3s linear;
+    width: 200px;
+    margin: 0 auto 10px;
+}
+
+.Work .content .item button:hover {
+    color: #fff;
+    background: #15c915;
+    transform: scale(1.2,1.2);
+}

@@ -4,7 +4,7 @@
 }
 
 .ContactMe .titleMe {
-    color: #fa4c52;
+    color: #fff;
     font-size: 60px;
     margin-top: 0;
     width: max-content;
@@ -46,14 +46,14 @@
     background: #2b2b2b;
     height: 50px;
     font-size: 16px;
-    color: #fa4c52;
+    color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
     width: 100%;
 }
 
-.ContactMe form input::placeholder {
-    color: #fa4c52;
+.ContactMe form input::placeholder, textarea::placeholder {
+    color: #fff;
 }
 
 .ContactMe form textarea {
@@ -63,16 +63,12 @@
     background: #2b2b2b;
     height: 50px;
     font-size: 16px;
-    color: #fa4c52;
+    color: #fff;
     padding: 20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 150px;
     resize: none;
-}
-
-.ContactMe form textarea::placeholder {
-    color: #fa4c52;
 }
 
 .ContactMe form .info {
@@ -87,15 +83,15 @@
     margin-left: auto;
     margin-top: 7px;
     background: transparent;
-    border: 2px solid #fa4c52;
+    border: 2px solid #fff;
     border-radius: 10px;
-    color: #fa4c52;
+    color: #fff;
     padding: 5px 20px;
     font-size: 18px;
 }
 
 .ContactMe form button:hover {
-    background: #fa4c52;
+    background: #fff;
     color: #1d1d1d;
 }
 
@@ -108,7 +104,7 @@
 }
 
 .ContactMe .content .contact .links a {
-    color: #fa4c52;
+    color: #fff;
     display: flex;
     height: 35px;
 }

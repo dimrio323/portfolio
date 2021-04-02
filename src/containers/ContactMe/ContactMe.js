@@ -36,7 +36,7 @@ class ContactMe extends Component {
             .then(response => {
                 console.log(response.data)
                 if (response.data.data.success) {
-                    window.alert(response.data.data.success)
+                    // window.alert(response.data.data.success)
                     document.querySelector('.name').value = ''
                     document.querySelector('.email').value = ''
                     document.querySelector('.topic').value = ''
@@ -53,9 +53,9 @@ class ContactMe extends Component {
 
         return (
             <div className='ContactMe'>
-                <p className='titleMe'>Контакты</p>
                 <div className="content" >
                     <div className="form">
+                        <p className='titleMe'>Контакты</p>
                         <p className='textMe'>Меня интересуют возможности фрилансера - особенно амбициозные или крупные проекты. Однако, если у вас есть другой запрос или вопрос, не стесняйтесь использовать эту форму.</p>
                         <form method='POST'>
                             <div className='info'>

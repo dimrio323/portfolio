@@ -2,72 +2,19 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
     <title>Quiz app</title>
     <style>
       body {
         background: #38444c;
       }
       @font-face {
-        font-family: 'PantonSemiBoldItalic';
-        src: url('Panton-SemiBoldItalic.woff');
+        font-family: 'Panton-Regular';
+        src: url('Panton-Regular.woff');
+      }
     </style>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- Запрет на просмотр кода -->
-    <script type="text/javascript">
-    let ban = false
-    switch(ban){
-      case true:
-      document.onkeydown = function(e) {
-        if(event.keyCode == 123) {
-          return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-          return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-          return false;
-        }
-        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-          return false;
-        }
-      }
-      if (window.Event)
-        document.captureEvents(Event.MOUSEUP);
-
-        function nocontextmenu() {
-        event.cancelBubble = true, event.returnValue = false;
-
-        return false;
-        }
-
-        function norightclick(e) {
-        if (window.Event) {
-        if (e.which == 2 || e.which == 3) return false;
-        }
-        else if (event.button == 2 || event.button == 3) {
-        event.cancelBubble = true, event.returnValue = false;
-        return false;
-        }
-        }
-
-        if (document.layers)
-        document.captureEvents(Event.MOUSEDOWN);
-
-        document.oncontextmenu = nocontextmenu;
-        document.onmousedown = norightclick;
-        document.onmouseup = norightclick;
-    }
-      </script>
   </body>
 </html>
