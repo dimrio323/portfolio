@@ -1,6 +1,6 @@
 import Chart from 'chart.js';
 import React, {Component} from 'react'
-import axios from '../../axios/axios';
+import axios from '../Axios/axios';
 import './Skills.css'
 import html5 from './html5.svg'
 import css3 from './css.svg'
@@ -163,7 +163,7 @@ class Skills extends Component {
                     datasets: [{
                         data: [this.state.Skills.js, 100-this.state.Skills.js],
                         backgroundColor: [
-                        '#ffff00'
+                        '#efd81d'
                         ],
                         pointHoverBackgroundColor: 'rgb(37 75 221)'
                     }]

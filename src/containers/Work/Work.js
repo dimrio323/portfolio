@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Work.css'
 // import css from '../Skills/css.svg'
-import axios from '../../axios/axios';
+import axios from '../Axios/axios';
 // import { nanoid } from 'nanoid';
 
 class Work extends Component {

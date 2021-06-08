@@ -1,10 +1,10 @@
-import axios from 'axios'
 import React, { Component } from 'react'
-import axiosBack from '../../axios/axios'
+import axiosBack from '../Axios/axios'
 import vk from './vk.svg'
 import telegram from './telegram.svg'
 import './ContactMe.css'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 class ContactMe extends Component {
 
